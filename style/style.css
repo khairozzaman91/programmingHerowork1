@@ -10,9 +10,9 @@ body{
     background-image: url('../images/banner/banner1.png');
     background-repeat: no-repeat;
     /* background-position: bottom left; */
-    width: 100%;
-    height: 808px;
-    margin-top: 0;
+    
+    margin-top: -55px;
+
 }
 
 
@@ -61,8 +61,79 @@ body{
 
 
 /* main section start  */
+
+/* 
+.contaniar{
+    display: flex;
+} */
+
+/* profile section  start*/
+
+/* profile section  end*/
 /* main section end */
 
 
 /* footer section start  */
 /* footer section end */
+
+
+
+.contaniar >.profiledescribe{
+    display: flex;
+    gap: 50px;
+}
+
+
+.imgprofile img{
+    width: 30%;
+}
+
+.featurs{
+    display: flex;
+    gap: 25px;
+}
+
+/* plans scetion */
+.plans-section{
+    width: 1600px;
+    height: 3229px;
+    background: #FFF;
+
+}
+
+.plans{
+    color:#151414;
+    font-size: 40px;
+    text-align: center;
+    
+
+}
+
+/* course about deatils start */
+.courseaboutdetalis{
+    padding-left: 27%;
+    align-items: center;
+}
+
+.courseaboutdetalis img{
+    width: 92.958px;
+    height: 92.958px;
+    text-align: center;
+    
+}
+
+.CourseDe{
+    color:#151414;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+
+}
+
+.CourseDescrive{
+    color:#737272;
+    text-align: center;
+    font-size: 25px;
+
+}
